@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing-module';
 import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core.module';
-import { AuthModule } from './auth/auth.module';
 import { HeaderComponent } from './header/header.component';
 
 @NgModule({
@@ -19,7 +18,6 @@ import { HeaderComponent } from './header/header.component';
     AppRoutingModule,
     SharedModule,
     CoreModule,
-    AuthModule,
   ],
   bootstrap: [AppComponent],
 })

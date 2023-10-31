@@ -12,7 +12,7 @@ import { SharedModule } from '../shared/shared.module';
     //BrowserModule, //Importing ngFor etc
     //Small module so adding route here
     RouterModule.forChild([
-      { path: 'shopping-list', component: ShoppingListComponent },
+      { path: '', component: ShoppingListComponent },
     ]),
     SharedModule,
   ],
